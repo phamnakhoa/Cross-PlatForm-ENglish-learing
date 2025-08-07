@@ -43,4 +43,26 @@ You can use the account for test admin -> Account:aa@gmail.com password: 1231231
 <div align="justify">
  Phiên bản di động của ứng dụng có các đầy đủ các tính năng trên web,ngoài ra bổ sung thêm các tính năng học khóa học trên điện thoại ,thi cử để lấy chứng chỉ, học từ vựng tiếng anh qua flashcard, tạo câu chuyện song ngữ học thụ động . Sử dụng net MAUI làm nền tảng theo kiến trúc MVVM (Model View ViewModel).Trên điện thoại cũng có thể mua gói cước qua 2 hình thức thanh toán là vnpay và zalopay .
 </div>
+--
+<div align="justify">
+The mobile version of the application includes all the features available on the web. In addition, it offers enhanced functionalities such as learning courses directly on the phone, taking exams to earn certificates, studying English vocabulary through flashcards, and creating bilingual stories for passive learning. The app is developed using .NET MAUI based on the MVVM (Model-View-ViewModel) architecture. Mobile users can also purchase subscription plans via two payment methods: VNPAY and ZaloPay.
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 12px;">
+  <img src="https://github.com/user-attachments/assets/d1d22f63-9bad-4a05-b995-90b133e0b33f" alt="Home Page 1" width="200" />
+  <img src="https://github.com/user-attachments/assets/164183cb-5a12-4782-baa7-44326bf4baf7" alt="Home Page 2" width="200" />
+  <img src="https://github.com/user-attachments/assets/4ea6e78b-d032-453e-b38b-87a237a63eb5" alt="Screen 3" width="200" />
+  <img src="https://github.com/user-attachments/assets/8c7ede4b-3418-4d95-a0c3-9c508e1320dc" alt="Screen 4" width="200" />
+  <img src="https://github.com/user-attachments/assets/425f1d1a-f3ec-4a2c-ae04-0fb52d24ca13" alt="Screen 5" width="200" />
+  <img src="https://github.com/user-attachments/assets/11723b8e-f8ef-4833-89d3-b40e377f9afe" alt="Screen 6" width="200" />
+  <img src="https://github.com/user-attachments/assets/4ad12e09-6cd2-4e1b-9221-5cca38ffbd79" alt="Screen 7" width="200" />
+  <img src="https://github.com/user-attachments/assets/eb451589-c953-47b9-b481-77c05e29108a" alt="Screen 8" width="200" />
+  <img src="https://github.com/user-attachments/assets/6bede7e3-9bfc-4882-bc45-7941f8072e79" alt="Screen 9" width="200" />
+  <img src="https://github.com/user-attachments/assets/59000f5c-55a7-4480-a81f-9451f6108e83" alt="Screen 10" width="200" />
+  <img src="https://github.com/user-attachments/assets/a8c75de9-ad67-40df-9728-842e497a4929" alt="Screen 11" width="200" />
+  <img src="https://github.com/user-attachments/assets/e8696ca3-1bc3-4ccc-a12f-2740de3c7f58" alt="Screen 12" width="200" />
+</div>
+
+
+
 
