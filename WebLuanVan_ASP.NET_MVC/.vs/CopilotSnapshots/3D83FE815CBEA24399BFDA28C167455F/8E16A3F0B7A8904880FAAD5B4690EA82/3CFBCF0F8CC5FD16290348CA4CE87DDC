@@ -1,0 +1,158 @@
+﻿// C# - VocabularyController.cs
+using Microsoft.AspNetCore.Mvc;
+using WebLuanVan_ASP.NET_MVC.Areas.Admin.Models;
+using WebLuanVan_ASP.NET_MVC.Models;
+
+namespace WebLuanVan_ASP.NET_MVC.Areas.Admin.Controllers
+{
+    [Area("Admin")]
+    public class VocabularyController : Controller
+    {
+        [Route("Admin/Vocabulary")]
+        public IActionResult Index(int page = 1, int? categoryId = null, string searchTerm = null)
+        {
+            string token = HttpContext.Session.GetString("AuthToken");
+            var vocabularies = CXuLy.GetListVocabulary(token);
+
+            // Lọc theo loại từ vựng
+            if (categoryId.HasValue)
+            {
+                var mappings = CXuLy.GetListVocabularyCategoryMapping(token)
+                    .Where(m => m.VocabularyCategoryId == categoryId.Value)
+                    .Select(m => m.VocabularyId)
+                    .ToList();
+                vocabularies = vocabularies.Where(v => mappings.Contains(v.VocabularyId)).ToList();
+            }
+
+            // Tìm kiếm theo từ
+            if (!string.IsNullOrEmpty(searchTerm))
+            {
+                vocabularies = vocabularies
+                    .Where(v => v.Word.Contains(searchTerm, System.StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+            }
+
+            // Phân trang
+            const int pageSize = 10;
+            int total = vocabularies.Count;
+            int skip = (page - 1) * pageSize;
+            var data = vocabularies.Skip(skip).Take(pageSize).ToList();
+
+            // Truyền dữ liệu cho dropdown filter
+            ViewBag.Categories = CXuLy.GetListVocabularyCategory(token);
+            ViewBag.CurrentCategoryId = categoryId;
+            ViewBag.SearchTerm = searchTerm;
+            ViewBag.Paginate = new Paginate(total, page, pageSize);
+
+            return View(data);
+        }
+        [HttpGet]
+        [Route("Admin/Vocabulary/Create")]
+        public IActionResult formCreateVocabulary()
+        {
+            var baseUrl = HttpContext.RequestServices.GetService<IConfiguration>()["ApiSettings:BaseUrl"];
+            ViewBag.ApiBaseUrl = baseUrl;
+            return View();
+        }
+
+        [HttpPost]
+        [Route("Admin/Vocabulary/Create")]
+        public IActionResult CreateVocabulary(CVocabulary model)
+        {
+            string token = HttpContext.Session.GetString("AuthToken");
+            if (ModelState.IsValid)
+            {
+                bool success = CXuLy.CreateVocabulary(model, token);
+                if (success)
+                    return RedirectToAction("Index");
+                ModelState.AddModelError("", "Thêm từ vựng thất bại.");
+            }
+            return View(model);
+        }
+
+        [HttpGet]
+        [Route("Admin/Vocabulary/Edit/{id}")]
+        public IActionResult formEditVocabulary(int id)
+        {
+            string token = HttpContext.Session.GetString("AuthToken");
+            var vocab = CXuLy.GetVocabularyById(id, token);
+            if (vocab == null) return NotFound();
+            return View(vocab);
+        }
+
+        [HttpPost]
+        [Route("Admin/Vocabulary/Edit/{id}")]
+        public IActionResult EditVocabulary(CVocabulary model)
+        {
+            string token = HttpContext.Session.GetString("AuthToken");
+            if (ModelState.IsValid)
+            {
+                bool success = CXuLy.UpdateVocabulary(model, token);
+                if (success)
+                    return RedirectToAction("Index");
+                ModelState.AddModelError("", "Cập nhật từ vựng thất bại.");
+            }
+            return View(model);
+        }
+
+        [HttpGet]
+        [Route("Admin/Vocabulary/Delete/{id}")]
+        public IActionResult DeleteVocabualry(int id)
+        {
+            string token = HttpContext.Session.GetString("AuthToken");
+            bool success = CXuLy.DeleteVocabulary(id, token);
+            return RedirectToAction("Index");
+        }
+
+
+        [Route("Admin/Details/{id}")]
+        public IActionResult Details(int id)
+        {
+            string token = HttpContext.Session.GetString("AuthToken");
+            var vocabulary = CXuLy.GetVocabularyById(id, token);
+            var meanings = CXuLy.GetMeaningsByVocabularyId(id, token);
+            ViewBag.Meanings = meanings;
+            return View(vocabulary);
+        }
+        // C# - VocabularyController.cs
+        [Route("Admin/Vocabulary/Categories")]
+        public IActionResult Categories(int page = 1, int pageSize = 5, string searchTerm = null)
+        {
+            string token = HttpContext.Session.GetString("AuthToken");
+            var categories = CXuLy.GetListVocabularyCategory(token);
+
+            if (!string.IsNullOrEmpty(searchTerm))
+                categories = categories.Where(c => c.VocabularyCategoryName.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)).ToList();
+
+            int total = categories.Count;
+            var data = categories.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+            ViewBag.SearchTerm = searchTerm;
+            ViewBag.Paginate = new Paginate(total, page, pageSize);
+            return View(data);
+        }
+
+        [Route("Admin/Vocabulary/CategoryMappings")]
+        public IActionResult CategoryMappings(int page = 1, int pageSize = 5, int? categoryId = null, int? vocabularyId = null)
+        {
+            string token = HttpContext.Session.GetString("AuthToken");
+            var mappings = CXuLy.GetListVocabularyCategoryMapping(token);
+            var vocabularies = CXuLy.GetListVocabulary(token);
+            var categories = CXuLy.GetListVocabularyCategory(token);
+
+            if (categoryId.HasValue)
+                mappings = mappings.Where(m => m.VocabularyCategoryId == categoryId.Value).ToList();
+            if (vocabularyId.HasValue)
+                mappings = mappings.Where(m => m.VocabularyId == vocabularyId.Value).ToList();
+
+            int total = mappings.Count;
+            var data = mappings.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+            ViewBag.Vocabularies = vocabularies;
+            ViewBag.Categories = categories;
+            ViewBag.CurrentCategoryId = categoryId;
+            ViewBag.CurrentVocabularyId = vocabularyId;
+            ViewBag.Paginate = new Paginate(total, page, pageSize);
+            return View(data);
+        }
+
+    }
+}

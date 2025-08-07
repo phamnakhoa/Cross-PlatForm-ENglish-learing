@@ -1,0 +1,29 @@
+﻿@model WebLuanVan_ASP.NET_MVC.Areas.Admin.Models.CVocabulary
+
+@{
+    ViewData["Title"] = "Chỉnh sửa từ vựng";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container py-4">
+    <h2 class="mb-4">Chỉnh sửa từ vựng</h2>
+    <!-- Form chỉnh sửa từ vựng, submit về action EditVocabulary -->
+    <form asp-action="EditVocabulary" method="post" id="vocabEditForm" class="needs-validation" novalidate>
+        <!-- Hidden input chứa meanings dạng JSON để gửi lên server -->
+        <input type="hidden" id="MeaningsJson" name="MeaningsJson" value="@((Model?.Meanings != null) ? Newtonsoft.Json.JsonConvert.SerializeObject(Model.Meanings) : "")" />
+        <input type="hidden" name="VocabularyId" value="@Model.VocabularyId" />
+        <div class="row g-3">
+            <!-- Từ vựng: không cho sửa, chỉ hiển thị -->
+            <div class="col-md-6">
+                <label for="Word" class="form-label">Từ vựng <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="Word" name="Word" value="@Model.Word" readonly />
+                <small class="text-muted">Từ vựng không thể sửa đổi</small>
+            </div>
+            <!-- Phát âm -->
+            <div class="col-md-6">
+                <label for="Pronunciation" class="form-label">Phát âm</label>
+                <input type="text" class="form-control" id="Pronunciation" name="Pronunciation" value="@Model.Pronunciation" placeholder="Nhập phát âm (nếu có)" />
+            </div>
+            <!-- Audio UK -->
+            <div class="col-md-6">
+                <label for="AudioUrlUk" class="form-label
