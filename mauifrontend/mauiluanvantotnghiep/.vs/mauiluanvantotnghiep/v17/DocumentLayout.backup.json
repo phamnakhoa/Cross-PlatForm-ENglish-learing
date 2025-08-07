@@ -1,0 +1,790 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\exampage\\exampage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\exampage\\exampage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\models\\examhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\models\\examhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\appconfig\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\appconfig\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\examviewmodel\\exampageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\examviewmodel\\exampageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\examviewmodel\\examquestionpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\examviewmodel\\examquestionpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\exampage\\examquestionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\exampage\\examquestionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\lessonpage\\lessondetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\lessonpage\\lessondetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\lessonpage\\lessonpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\lessonpage\\lessonpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\coursespage\\coursesdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\coursespage\\coursesdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\paymentpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\paymentpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\paymentgatewaypageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\paymentgatewaypageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\packagepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\packagepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\coursedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\coursedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\storyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\storyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\vocabularypage\\categoryvocabularypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\vocabularypage\\categoryvocabularypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\vocabularyviewmodel\\categoryvocabularyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\vocabularyviewmodel\\categoryvocabularyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\allcoursesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\allcoursesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\certificatespage\\certificatespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\certificatespage\\certificatespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\lessonpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\lessonpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\optionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\optionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\models\\examset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\models\\examset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\updatepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\updatepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\userprofilepage\\updatepasswordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\userprofilepage\\updatepasswordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\userprofilepage\\userprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\userprofilepage\\userprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\packagepage\\packagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\packagepage\\packagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\converters\\counttoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\converters\\counttoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\converters\\booltocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\converters\\booltocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\models\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\models\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\paymentpage\\paymentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\paymentpage\\paymentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\questionpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\questionpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\questionitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\questionitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\questionpage\\questionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\questionpage\\questionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\converters\\indextodisplayconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\converters\\indextodisplayconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\converters\\htmlwrapperconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\converters\\htmlwrapperconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\converters\\intequalsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\converters\\intequalsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\behaviors\\scrollheaderbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\behaviors\\scrollheaderbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\behaviors\\webviewscrollbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\behaviors\\webviewscrollbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\viewmodels\\coursepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\viewmodels\\coursepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\coursespage\\coursespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\coursespage\\coursespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\storypage\\storypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\storypage\\storypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\storypage\\storypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\storypage\\storypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|c:\\stu\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\views\\userprofilepage\\userprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D3FB45-713D-488E-96BC-017B85CC7D92}|mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj|solutionrelative:mauiluanvantotnghiep\\views\\userprofilepage\\userprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 455,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExamHistory.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Models\\ExamHistory.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Models\\ExamHistory.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Models\\ExamHistory.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Models\\ExamHistory.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T14:33:31.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExamPage.xaml",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\ExamPage\\ExamPage.xaml",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\ExamPage\\ExamPage.xaml",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\ExamPage\\ExamPage.xaml",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\ExamPage\\ExamPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-04T03:49:04.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\AppConfig\\AppConfig.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\AppConfig\\AppConfig.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\AppConfig\\AppConfig.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\AppConfig\\AppConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T17:44:29.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExamQuestionPageViewModel.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\ExamViewModel\\ExamQuestionPageViewModel.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\ExamViewModel\\ExamQuestionPageViewModel.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\ExamViewModel\\ExamQuestionPageViewModel.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\ExamViewModel\\ExamQuestionPageViewModel.cs",
+              "ViewState": "AgIAAGkBAAAAAAAAAAAawHABAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T03:54:25.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "mauiluanvantotnghiep.csproj",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj",
+              "RelativeToolTip": "mauiluanvantotnghiep\\mauiluanvantotnghiep.csproj",
+              "ViewState": "AgIAACUAAAAAAAAAAAAjwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-04T23:27:34.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExamPageViewModel.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\ExamViewModel\\ExamPageViewModel.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\ExamViewModel\\ExamPageViewModel.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\ExamViewModel\\ExamPageViewModel.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\ExamViewModel\\ExamPageViewModel.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAH4AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T14:41:15.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExamQuestionPage.xaml",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\ExamPage\\ExamQuestionPage.xaml",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\ExamPage\\ExamQuestionPage.xaml",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\ExamPage\\ExamQuestionPage.xaml",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\ExamPage\\ExamQuestionPage.xaml",
+              "ViewState": "AgIAAF0BAAAAAAAAAAAawG4BAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-04T14:30:55.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LessonDetailPage.xaml",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\LessonPage\\LessonDetailPage.xaml",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\LessonPage\\LessonDetailPage.xaml",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\LessonPage\\LessonDetailPage.xaml",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\LessonPage\\LessonDetailPage.xaml",
+              "ViewState": "AgIAALkAAAAAAAAAAAAawM0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-03T19:14:45.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LessonPage.xaml",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\LessonPage\\LessonPage.xaml",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\LessonPage\\LessonPage.xaml",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\LessonPage\\LessonPage.xaml",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\LessonPage\\LessonPage.xaml",
+              "ViewState": "AgIAAIMAAAAAAAAAAAApwHwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-03T19:14:41.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CoursesDetailPage.xaml",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\CoursesPage\\CoursesDetailPage.xaml",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\CoursesPage\\CoursesDetailPage.xaml",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\CoursesPage\\CoursesDetailPage.xaml",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\CoursesPage\\CoursesDetailPage.xaml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-03T16:40:36.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaymentPageViewModel.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\PaymentPageViewModel.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\PaymentPageViewModel.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\PaymentPageViewModel.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\PaymentPageViewModel.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAAAawPEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T09:27:56.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentGatewayPageViewModel.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\PaymentGatewayPageViewModel.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\PaymentGatewayPageViewModel.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\PaymentGatewayPageViewModel.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\PaymentGatewayPageViewModel.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAkwD8AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T09:14:36.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PackagePageViewModel.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\PackagePageViewModel.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\PackagePageViewModel.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\PackagePageViewModel.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\PackagePageViewModel.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAgwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:26:24.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CourseDetailViewModel.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\CourseDetailViewModel.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\CourseDetailViewModel.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\CourseDetailViewModel.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\CourseDetailViewModel.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAUwK4AAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T16:40:34.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\AppShell.xaml",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\AppShell.xaml",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\AppShell.xaml",
+              "RelativeToolTip": "mauiluanvantotnghiep\\AppShell.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-04T07:51:13.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoryVocabularyViewModel.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\VocabularyViewModel\\CategoryVocabularyViewModel.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\VocabularyViewModel\\CategoryVocabularyViewModel.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\VocabularyViewModel\\CategoryVocabularyViewModel.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\VocabularyViewModel\\CategoryVocabularyViewModel.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAUwOYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T16:05:03.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StoryViewModel.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\StoryViewModel.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\StoryViewModel.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\StoryViewModel.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\StoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T16:49:42.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryVocabularyPage.xaml",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\VocabularyPage\\CategoryVocabularyPage.xaml",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\VocabularyPage\\CategoryVocabularyPage.xaml",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\VocabularyPage\\CategoryVocabularyPage.xaml",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\VocabularyPage\\CategoryVocabularyPage.xaml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAcwJMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-04T16:05:58.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AllCoursesViewModel.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\AllCoursesViewModel.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\AllCoursesViewModel.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\AllCoursesViewModel.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\AllCoursesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T15:44:50.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CertificatesPage.xaml.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\CertificatesPage\\CertificatesPage.xaml.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\CertificatesPage\\CertificatesPage.xaml.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\CertificatesPage\\CertificatesPage.xaml.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\CertificatesPage\\CertificatesPage.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIA0wBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T15:17:01.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LessonPageViewModel.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\LessonPageViewModel.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\LessonPageViewModel.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\LessonPageViewModel.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\LessonPageViewModel.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAqwLIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T15:01:05.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OptionItem.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\OptionItem.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\OptionItem.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\OptionItem.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\OptionItem.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAApwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:58:13.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Models\\Question.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Models\\Question.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Models\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T14:33:17.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ExamSet.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Models\\ExamSet.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Models\\ExamSet.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Models\\ExamSet.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Models\\ExamSet.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T14:33:33.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserProfileViewModel.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\UserProfileViewModel.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\UserProfileViewModel.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\UserProfileViewModel.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\UserProfileViewModel.cs",
+              "ViewState": "AgIAAPIBAAAAAAAAAAAAAAICAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T14:25:38.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdatePasswordPage.xaml",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\UserProfilePage\\UpdatePasswordPage.xaml",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\UserProfilePage\\UpdatePasswordPage.xaml",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\UserProfilePage\\UpdatePasswordPage.xaml",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\UserProfilePage\\UpdatePasswordPage.xaml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-04T14:27:26.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdatePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\UpdatePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\UpdatePasswordViewModel.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\UpdatePasswordViewModel.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\UpdatePasswordViewModel.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAowIYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T14:24:04.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CountToBoolConverter.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Converters\\CountToBoolConverter.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Converters\\CountToBoolConverter.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Converters\\CountToBoolConverter.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Converters\\CountToBoolConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T03:21:55.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PackagePage.xaml",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\PackagePage\\PackagePage.xaml",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\PackagePage\\PackagePage.xaml",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\PackagePage\\PackagePage.xaml",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\PackagePage\\PackagePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-04T13:54:51.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserProfilePage.xaml",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\UserProfilePage\\UserProfilePage.xaml",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\UserProfilePage\\UserProfilePage.xaml",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\UserProfilePage\\UserProfilePage.xaml",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\UserProfilePage\\UserProfilePage.xaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-03T16:39:35.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\AppShell.xaml.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\AppShell.xaml.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\AppShell.xaml.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwEgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T14:25:04.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BoolToColorConverter.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Converters\\BoolToColorConverter.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Converters\\BoolToColorConverter.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Converters\\BoolToColorConverter.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Converters\\BoolToColorConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T03:21:49.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Package.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Models\\Package.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Models\\Package.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Models\\Package.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Models\\Package.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAkwDsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:57:13.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PaymentPage.xaml",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\PaymentPage\\PaymentPage.xaml",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\PaymentPage\\PaymentPage.xaml",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\PaymentPage\\PaymentPage.xaml",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\PaymentPage\\PaymentPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-04T09:14:30.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "QuestionPageViewModel.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\QuestionPageViewModel.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\QuestionPageViewModel.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\QuestionPageViewModel.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\QuestionPageViewModel.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAswDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T03:17:54.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "QuestionItemViewModel.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\QuestionItemViewModel.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\QuestionItemViewModel.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\QuestionItemViewModel.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\QuestionItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T03:18:18.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "QuestionPage.xaml",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\QuestionPage\\QuestionPage.xaml",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\QuestionPage\\QuestionPage.xaml",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\QuestionPage\\QuestionPage.xaml",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\QuestionPage\\QuestionPage.xaml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-03T18:30:18.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HtmlWrapperConverter.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Converters\\HtmlWrapperConverter.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Converters\\HtmlWrapperConverter.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Converters\\HtmlWrapperConverter.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Converters\\HtmlWrapperConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T03:01:30.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IndexToDisplayConverter.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Converters\\IndexToDisplayConverter.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Converters\\IndexToDisplayConverter.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Converters\\IndexToDisplayConverter.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Converters\\IndexToDisplayConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T03:21:54.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IntEqualsConverter.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Converters\\IntEqualsConverter.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Converters\\IntEqualsConverter.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Converters\\IntEqualsConverter.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Converters\\IntEqualsConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T03:21:50.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ScrollHeaderBehavior.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Behaviors\\ScrollHeaderBehavior.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Behaviors\\ScrollHeaderBehavior.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Behaviors\\ScrollHeaderBehavior.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Behaviors\\ScrollHeaderBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T03:21:31.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "WebViewScrollBehavior.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Behaviors\\WebViewScrollBehavior.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Behaviors\\WebViewScrollBehavior.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Behaviors\\WebViewScrollBehavior.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Behaviors\\WebViewScrollBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T03:21:30.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CoursePageViewModel.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\CoursePageViewModel.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\ViewModels\\CoursePageViewModel.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\ViewModels\\CoursePageViewModel.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\ViewModels\\CoursePageViewModel.cs",
+              "ViewState": "AgIAACkBAAAAAAAAAAAYwE4BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T17:23:11.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "StoryPage.xaml",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\StoryPage\\StoryPage.xaml",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\StoryPage\\StoryPage.xaml",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\StoryPage\\StoryPage.xaml",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\StoryPage\\StoryPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-03T16:48:55.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CoursesPage.xaml",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\CoursesPage\\CoursesPage.xaml",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\CoursesPage\\CoursesPage.xaml",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\CoursesPage\\CoursesPage.xaml",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\CoursesPage\\CoursesPage.xaml",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAAAKQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-03T16:40:38.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "StoryPage.xaml.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\StoryPage\\StoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\StoryPage\\StoryPage.xaml.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\StoryPage\\StoryPage.xaml.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\StoryPage\\StoryPage.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T17:16:50.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\UserProfilePage\\UserProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "mauiluanvantotnghiep\\Views\\UserProfilePage\\UserProfilePage.xaml.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\mauiluanvanmoinhat\\mauiluanvantotnghiep\\mauiluanvantotnghiep\\Views\\UserProfilePage\\UserProfilePage.xaml.cs",
+              "RelativeToolTip": "mauiluanvantotnghiep\\Views\\UserProfilePage\\UserProfilePage.xaml.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T16:40:05.375Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 337,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

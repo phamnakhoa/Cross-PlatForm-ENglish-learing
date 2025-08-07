@@ -1,0 +1,85 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = mauiluanvantotnghiep
+build_property.ProjectDir = C:\DAI HOC CONG NGHE SAI GON STU\luanvantotnghiep\mauiluanvan\mauiluanvan\mauiluanvantotnghiep\mauiluanvantotnghiep\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/DAI HOC CONG NGHE SAI GON STU/luanvantotnghiep/mauiluanvan/mauiluanvan/mauiluanvantotnghiep/mauiluanvantotnghiep/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/DAI HOC CONG NGHE SAI GON STU/luanvantotnghiep/mauiluanvan/mauiluanvan/mauiluanvantotnghiep/mauiluanvantotnghiep/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/DAI HOC CONG NGHE SAI GON STU/luanvantotnghiep/mauiluanvan/mauiluanvan/mauiluanvantotnghiep/mauiluanvantotnghiep/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/DAI HOC CONG NGHE SAI GON STU/luanvantotnghiep/mauiluanvan/mauiluanvan/mauiluanvantotnghiep/mauiluanvantotnghiep/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/DAI HOC CONG NGHE SAI GON STU/luanvantotnghiep/mauiluanvan/mauiluanvan/mauiluanvantotnghiep/mauiluanvantotnghiep/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/DAI HOC CONG NGHE SAI GON STU/luanvantotnghiep/mauiluanvan/mauiluanvan/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/CoursesPage/CoursesDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.CoursesPage.CoursesDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CoursesPage\CoursesDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CoursesPage\CoursesDetailPage.xaml
+
+[C:/DAI HOC CONG NGHE SAI GON STU/luanvantotnghiep/mauiluanvan/mauiluanvan/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/CoursesPage/CoursesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.CoursesPage.CoursesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CoursesPage\CoursesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CoursesPage\CoursesPage.xaml
+
+[C:/DAI HOC CONG NGHE SAI GON STU/luanvantotnghiep/mauiluanvan/mauiluanvan/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/RegisterPage/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.RegisterPage.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RegisterPage\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RegisterPage\RegisterPage.xaml
+
+[C:/DAI HOC CONG NGHE SAI GON STU/luanvantotnghiep/mauiluanvan/mauiluanvan/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/SignInPage/SignInPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.SignInPage.SignInPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SignInPage\SignInPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SignInPage\SignInPage.xaml
+
+[C:/DAI HOC CONG NGHE SAI GON STU/luanvantotnghiep/mauiluanvan/mauiluanvan/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/UserProfilePage/UserProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.UserProfilePage.UserProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserProfilePage\UserProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserProfilePage\UserProfilePage.xaml
+
+[C:/DAI HOC CONG NGHE SAI GON STU/luanvantotnghiep/mauiluanvan/mauiluanvan/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/WelcomePage/WelcomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.WelcomePage.WelcomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\WelcomePage\WelcomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\WelcomePage\WelcomePage.xaml

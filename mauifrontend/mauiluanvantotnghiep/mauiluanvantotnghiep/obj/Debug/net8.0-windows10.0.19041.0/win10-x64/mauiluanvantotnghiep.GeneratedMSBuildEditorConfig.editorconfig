@@ -1,0 +1,292 @@
+is_global = true
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property._MvvmToolkitIsUsingWindowsRuntimePack = true
+build_property.CsWinRTComponent = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = mauiluanvantotnghiep
+build_property.ProjectDir = C:\STU\luanvantotnghiep\long\mauiluanvanmoinhat\mauiluanvantotnghiep\mauiluanvantotnghiep\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/ViewsPopup/AlertLessonExam.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.ViewsPopup.AlertLessonExam.xaml
+build_metadata.AdditionalFiles.TargetPath = ViewsPopup\AlertLessonExam.xaml
+build_metadata.AdditionalFiles.RelativePath = ViewsPopup\AlertLessonExam.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/ViewsPopup/AlertLessonExamFailed.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.ViewsPopup.AlertLessonExamFailed.xaml
+build_metadata.AdditionalFiles.TargetPath = ViewsPopup\AlertLessonExamFailed.xaml
+build_metadata.AdditionalFiles.RelativePath = ViewsPopup\AlertLessonExamFailed.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/ViewsPopup/CertificateViewPopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.ViewsPopup.CertificateViewPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = ViewsPopup\CertificateViewPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = ViewsPopup\CertificateViewPopup.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/ViewsPopup/ExamFailedPopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.ViewsPopup.ExamFailedPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = ViewsPopup\ExamFailedPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = ViewsPopup\ExamFailedPopup.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/ViewsPopup/ExamPassedPopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.ViewsPopup.ExamPassedPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = ViewsPopup\ExamPassedPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = ViewsPopup\ExamPassedPopup.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/ViewsPopup/SubmitConfirmationPopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.ViewsPopup.SubmitConfirmationPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = ViewsPopup\SubmitConfirmationPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = ViewsPopup\SubmitConfirmationPopup.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/CertificatesPage/CertificateDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.CertificatesPage.CertificateDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CertificatesPage\CertificateDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CertificatesPage\CertificateDetailPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/CertificatesPage/CertificatesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.CertificatesPage.CertificatesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CertificatesPage\CertificatesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CertificatesPage\CertificatesPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/ChatDashboardPage/ChatDashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.ChatDashboardPage.ChatDashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ChatDashboardPage\ChatDashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ChatDashboardPage\ChatDashboardPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/CoursesPage/AllCoursesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.CoursesPage.AllCoursesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CoursesPage\AllCoursesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CoursesPage\AllCoursesPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/CoursesPage/CoursesDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.CoursesPage.CoursesDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CoursesPage\CoursesDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CoursesPage\CoursesDetailPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/CoursesPage/CoursesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.CoursesPage.CoursesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CoursesPage\CoursesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CoursesPage\CoursesPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/ExamPage/ExamPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.ExamPage.ExamPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ExamPage\ExamPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ExamPage\ExamPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/ExamPage/ExamQuestionPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.ExamPage.ExamQuestionPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ExamPage\ExamQuestionPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ExamPage\ExamQuestionPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/ForgotPasswordPage/ForgotPasswordPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.ForgotPasswordPage.ForgotPasswordPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ForgotPasswordPage\ForgotPasswordPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ForgotPasswordPage\ForgotPasswordPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/LessonPage/LessonDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.LessonPage.LessonDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LessonPage\LessonDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LessonPage\LessonDetailPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/LessonPage/LessonPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.LessonPage.LessonPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LessonPage\LessonPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LessonPage\LessonPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/PackagePage/PackagePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.PackagePage.PackagePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PackagePage\PackagePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PackagePage\PackagePage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/PaymentPage/PaymentgatewayPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.PaymentPage.PaymentgatewayPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PaymentPage\PaymentgatewayPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PaymentPage\PaymentgatewayPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/PaymentPage/PaymentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.PaymentPage.PaymentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PaymentPage\PaymentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PaymentPage\PaymentPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/QuestionPage/QuestionPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.QuestionPage.QuestionPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\QuestionPage\QuestionPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\QuestionPage\QuestionPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/RegisterPage/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.RegisterPage.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RegisterPage\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RegisterPage\RegisterPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/ReportPage/ReportPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.ReportPage.ReportPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ReportPage\ReportPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ReportPage\ReportPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/ReviewPage/AddReviewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.ReviewPage.AddReviewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ReviewPage\AddReviewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ReviewPage\AddReviewPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/ReviewPage/ReviewDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.ReviewPage.ReviewDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ReviewPage\ReviewDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ReviewPage\ReviewDetailPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/SignInPage/SignInPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.SignInPage.SignInPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SignInPage\SignInPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SignInPage\SignInPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/StoryPage/StoryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.StoryPage.StoryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\StoryPage\StoryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\StoryPage\StoryPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/TransactionPage/TransactionDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.TransactionPage.TransactionDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TransactionPage\TransactionDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TransactionPage\TransactionDetailsPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/TransactionPage/TransactionsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.TransactionPage.TransactionsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TransactionPage\TransactionsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TransactionPage\TransactionsPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/UserProfilePage/UpdatePasswordPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.UserProfilePage.UpdatePasswordPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserProfilePage\UpdatePasswordPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserProfilePage\UpdatePasswordPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/UserProfilePage/UserProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.UserProfilePage.UserProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserProfilePage\UserProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserProfilePage\UserProfilePage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/VideoPopupPage/VideoFullScreenPopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.VideoPopupPage.VideoFullScreenPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VideoPopupPage\VideoFullScreenPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VideoPopupPage\VideoFullScreenPopup.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/VocabularyPage/AllNewWordsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.VocabularyPage.AllNewWordsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VocabularyPage\AllNewWordsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VocabularyPage\AllNewWordsPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/VocabularyPage/CategoryVocabularyListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.VocabularyPage.CategoryVocabularyListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VocabularyPage\CategoryVocabularyListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VocabularyPage\CategoryVocabularyListPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/VocabularyPage/CategoryVocabularyPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.VocabularyPage.CategoryVocabularyPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VocabularyPage\CategoryVocabularyPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VocabularyPage\CategoryVocabularyPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/VocabularyPage/FlashcardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.VocabularyPage.FlashcardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VocabularyPage\FlashcardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VocabularyPage\FlashcardPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/VocabularyPage/SearchVocabulariesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.VocabularyPage.SearchVocabulariesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VocabularyPage\SearchVocabulariesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VocabularyPage\SearchVocabulariesPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/VocabularyPage/VocabularyDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.VocabularyPage.VocabularyDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\VocabularyPage\VocabularyDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\VocabularyPage\VocabularyDetailPage.xaml
+
+[C:/STU/luanvantotnghiep/long/mauiluanvanmoinhat/mauiluanvantotnghiep/mauiluanvantotnghiep/Views/WelcomePage/WelcomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = mauiluanvantotnghiep.Views.WelcomePage.WelcomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\WelcomePage\WelcomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\WelcomePage\WelcomePage.xaml
