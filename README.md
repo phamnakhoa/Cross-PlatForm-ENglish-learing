@@ -63,6 +63,17 @@ The mobile version of the application includes all the features available on the
   <img src="https://github.com/user-attachments/assets/e8696ca3-1bc3-4ccc-a12f-2740de3c7f58" alt="Screen 12" width="200" />
 </div>
 
+## 📘 Ghi chú sử dụng | Usage Note
+
+Nếu bạn thấy mã nguồn này hữu ích và sử dụng nó, vui lòng ghi nguồn.  
+Source được chia sẻ công khai với hy vọng sẽ giúp ích cho bạn nếu phù hợp.
+
+If you find this source code helpful and use it, please include attribution.  
+This source is publicly shared in hopes it may assist you if it suits your needs.
+
+💙 Cảm ơn! | Thank you!
+
+
 
 
 
