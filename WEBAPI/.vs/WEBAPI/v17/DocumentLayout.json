@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|c:\\stu\\luanvantotnghiep\\long\\webapi\\webapi2\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|c:\\stu\\luanvantotnghiep\\long\\webapi\\webapi2\\webapi\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|c:\\stu\\luanvantotnghiep\\long\\webapi\\webapi2\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|c:\\stu\\luanvantotnghiep\\long\\webapi\\webapi2\\webapi\\webapi\\controllers\\quanlyexamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|solutionrelative:webapi\\controllers\\quanlyexamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|c:\\stu\\luanvantotnghiep\\long\\webapi\\webapi2\\webapi\\webapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|solutionrelative:webapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|c:\\stu\\luanvantotnghiep\\long\\webapi\\webapi2\\webapi\\webapi\\controllers\\quanlydangkygoicuoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|solutionrelative:webapi\\controllers\\quanlydangkygoicuoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|c:\\stu\\luanvantotnghiep\\long\\webapi\\webapi2\\webapi\\webapi\\controllers\\quanlygoicuoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|solutionrelative:webapi\\controllers\\quanlygoicuoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|c:\\stu\\luanvantotnghiep\\long\\webapi\\webapi2\\webapi\\webapi\\controllers\\quanlycauhoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65EF88E4-A12F-460C-8F68-572F9448BAC2}|WEBAPI\\WEBAPI.csproj|solutionrelative:webapi\\controllers\\quanlycauhoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 248,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "WEBAPI\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "WEBAPI\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAGgBAAAAAAAAAAAQwGkBAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:52:15.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WEBAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WEBAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-04T13:40:42.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WEBAPI\\appsettings.json",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\appsettings.json",
+              "RelativeToolTip": "WEBAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-04T13:40:37.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WEBAPI\\Program.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\Program.cs",
+              "RelativeToolTip": "WEBAPI\\Program.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAgwIMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:40:27.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuanLyExamController.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\Controllers\\QuanLyExamController.cs",
+              "RelativeDocumentMoniker": "WEBAPI\\Controllers\\QuanLyExamController.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\Controllers\\QuanLyExamController.cs",
+              "RelativeToolTip": "WEBAPI\\Controllers\\QuanLyExamController.cs",
+              "ViewState": "AgIAAMkBAAAAAAAAAAAIwNUBAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T05:32:33.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuanLyDangKyGoiCuocController.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\Controllers\\QuanLyDangKyGoiCuocController.cs",
+              "RelativeDocumentMoniker": "WEBAPI\\Controllers\\QuanLyDangKyGoiCuocController.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\Controllers\\QuanLyDangKyGoiCuocController.cs",
+              "RelativeToolTip": "WEBAPI\\Controllers\\QuanLyDangKyGoiCuocController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:37:10.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuanLyGoiCuocController.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\Controllers\\QuanLyGoiCuocController.cs",
+              "RelativeDocumentMoniker": "WEBAPI\\Controllers\\QuanLyGoiCuocController.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\Controllers\\QuanLyGoiCuocController.cs",
+              "RelativeToolTip": "WEBAPI\\Controllers\\QuanLyGoiCuocController.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAowO8AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:36:30.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuanLyCauHoiController.cs",
+              "DocumentMoniker": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\Controllers\\QuanLyCauHoiController.cs",
+              "RelativeDocumentMoniker": "WEBAPI\\Controllers\\QuanLyCauHoiController.cs",
+              "ToolTip": "C:\\STU\\luanvantotnghiep\\long\\WEBAPI\\WEBAPI2\\WEBAPI\\WEBAPI\\Controllers\\QuanLyCauHoiController.cs",
+              "RelativeToolTip": "WEBAPI\\Controllers\\QuanLyCauHoiController.cs",
+              "ViewState": "AgIAADUCAAAAAAAAAAAowEECAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T05:31:38.506Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 716,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

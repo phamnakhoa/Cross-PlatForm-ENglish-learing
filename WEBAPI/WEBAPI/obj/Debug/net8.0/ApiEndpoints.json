@@ -1,0 +1,3311 @@
+[
+  {
+    "ContainingType": "WEBAPI.Controllers.CertificatesController",
+    "Method": "GenerateUrl",
+    "RelativePath": "api/Certificates/CreateCertificates",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WEBAPI.Services.Bannerbear.BannerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.CertificatesController",
+    "Method": "VerifyCertificate",
+    "RelativePath": "api/Certificates/VerifyCertificate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WEBAPI.Services.Solana.VerifyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.ConversationsController",
+    "Method": "CreateConversation",
+    "RelativePath": "api/Conversations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "conversationDTO",
+        "Type": "WEBAPI.DTOS.ConversationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WEBAPI.DTOS.ConversationDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.ConversationsController",
+    "Method": "GetConversation",
+    "RelativePath": "api/Conversations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WEBAPI.DTOS.ConversationDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.ConversationsController",
+    "Method": "GetConversations",
+    "RelativePath": "api/Conversations/admin/{adminId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adminId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WEBAPI.DTOS.ConversationDTO, WEBAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.ConversationsController",
+    "Method": "GetConversationBetween",
+    "RelativePath": "api/Conversations/between",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adminId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WEBAPI.DTOS.ConversationDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.ConversationsController",
+    "Method": "GetOnlineUsersAndAdmins",
+    "RelativePath": "api/Conversations/online-users-admins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.ConversationsController",
+    "Method": "UserCreateConversation",
+    "RelativePath": "api/Conversations/user-create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WEBAPI.DTOS.ConversationDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.ConversationsController",
+    "Method": "GetUserConversations",
+    "RelativePath": "api/Conversations/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WEBAPI.DTOS.ConversationDTO, WEBAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.MessagesController",
+    "Method": "GetMessages",
+    "RelativePath": "api/Messages/conversation/{conversationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "conversationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WEBAPI.DTOS.MessageDTO, WEBAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.MessagesController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Messages/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "messageDTO",
+        "Type": "WEBAPI.DTOS.MessageDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WEBAPI.DTOS.MessageDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "AddPaymentMethod",
+    "RelativePath": "api/payment/AddPaymentMethod",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.Models.PaymentMethodDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "CreatePaymentAsync",
+    "RelativePath": "api/payment/create-vnpay",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WEBAPI.Services.ModelsVnPay.PaymentInformationModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "CreateZaloPay",
+    "RelativePath": "api/payment/create-zalopay",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WEBAPI.Services.Models.ZaloPayRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "DeleteOrders",
+    "RelativePath": "api/payment/DeleteOrders/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "DeletePaymentMethod",
+    "RelativePath": "api/payment/DeletePaymentMethod/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "GetDSOrderByUserId",
+    "RelativePath": "api/payment/GetDSOrderByUserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "GetListOrders",
+    "RelativePath": "api/payment/GetListOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "getListPaymentMethos",
+    "RelativePath": "api/payment/GetListPaymentMethods",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "GetPaymentMethodById",
+    "RelativePath": "api/payment/GetPaymentMethodById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "GetMyTransactions",
+    "RelativePath": "api/payment/mytransactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "GetTotalRevenue",
+    "RelativePath": "api/payment/TotalRevenue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "UpdateOrderStatus",
+    "RelativePath": "api/payment/update-order-status",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.Models.UpdateOrderStatusDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "UpdatePaymentMethod",
+    "RelativePath": "api/payment/UpdatePaymentMethod/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.Models.PaymentMethodDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "PaymentCallbackAsync",
+    "RelativePath": "api/payment/vnpay-callback",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "ZaloPayCallback",
+    "RelativePath": "api/payment/zalopay-callback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.PaymentController",
+    "Method": "VerifyPayment",
+    "RelativePath": "api/payment/zalopay/verify",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyAvatarController",
+    "Method": "CreateAvatar",
+    "RelativePath": "api/QuanLyAvatar/CreateAvatar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "avatarDTO",
+        "Type": "WEBAPI.DTOS.AvatarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyAvatarController",
+    "Method": "DeleteAvatar",
+    "RelativePath": "api/QuanLyAvatar/DeleteAvatar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyAvatarController",
+    "Method": "GetAvatarById",
+    "RelativePath": "api/QuanLyAvatar/GetAvatarById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyAvatarController",
+    "Method": "GetListAvatar",
+    "RelativePath": "api/QuanLyAvatar/GetListAvatar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyAvatarController",
+    "Method": "UpdateAvatar",
+    "RelativePath": "api/QuanLyAvatar/UpdateAvatar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "avatarDTO",
+        "Type": "WEBAPI.DTOS.AvatarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBaiHocController",
+    "Method": "AddLessonToCourse",
+    "RelativePath": "api/QuanLyBaiHoc/AddLessonToCourse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.CourseLessonsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBaiHocController",
+    "Method": "DeleteLesson",
+    "RelativePath": "api/QuanLyBaiHoc/DeleteLesson/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBaiHocController",
+    "Method": "GetCourseLessonByID",
+    "RelativePath": "api/QuanLyBaiHoc/GetCourseLessonByID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBaiHocController",
+    "Method": "GetLessonById",
+    "RelativePath": "api/QuanLyBaiHoc/GetLessonById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBaiHocController",
+    "Method": "GetLessonsByCourseId",
+    "RelativePath": "api/QuanLyBaiHoc/GetLessonsByCourseId/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBaiHocController",
+    "Method": "GetListLesson",
+    "RelativePath": "api/QuanLyBaiHoc/GetListLesson",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBaiHocController",
+    "Method": "InsertLesson",
+    "RelativePath": "api/QuanLyBaiHoc/InsertLesson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lessonDTO",
+        "Type": "WEBAPI.DTOS.LessonDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBaiHocController",
+    "Method": "RemoveLessonFromCourse",
+    "RelativePath": "api/QuanLyBaiHoc/RemoveLessonFromCourse/{courseId}/{lessonId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "lessonId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBaiHocController",
+    "Method": "SwapLessonOrder",
+    "RelativePath": "api/QuanLyBaiHoc/SwapLessonOrder",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SwapLessonOrderDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBaiHocController",
+    "Method": "UpdateLesson",
+    "RelativePath": "api/QuanLyBaiHoc/UpdateLesson/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "lessonDTO",
+        "Type": "WEBAPI.DTOS.LessonDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBaiHocController",
+    "Method": "UpdateLessonOrder",
+    "RelativePath": "api/QuanLyBaiHoc/UpdateLessonOrder",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.CourseLessonsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBannerController",
+    "Method": "AddBanner",
+    "RelativePath": "api/QuanLyBanner/AddBanner",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "banner",
+        "Type": "WEBAPI.Models.Banner",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBannerController",
+    "Method": "DeleteBanner",
+    "RelativePath": "api/QuanLyBanner/DeleteBanner/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBannerController",
+    "Method": "GetBannerById",
+    "RelativePath": "api/QuanLyBanner/GetBannerById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBannerController",
+    "Method": "GetBanners",
+    "RelativePath": "api/QuanLyBanner/GetListBanners",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyBannerController",
+    "Method": "UpdateBanner",
+    "RelativePath": "api/QuanLyBanner/UpdateBanner/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "banner",
+        "Type": "WEBAPI.Models.Banner",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "AddQuestionToLesson",
+    "RelativePath": "api/QuanLyCauHoi/AddQuestionToLesson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.LessonQuestionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "DeleteQuestion",
+    "RelativePath": "api/QuanLyCauHoi/DeleteQuestion/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "DeleteQuestionContent",
+    "RelativePath": "api/QuanLyCauHoi/DeleteQuestionContent/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "DeleteQuestionLevel",
+    "RelativePath": "api/QuanLyCauHoi/DeleteQuestionLevel/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "DeleteQuestionType",
+    "RelativePath": "api/QuanLyCauHoi/DeleteQuestionType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "GetLessonQuestionByID",
+    "RelativePath": "api/QuanLyCauHoi/GetLessonQuestionByID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "GetListQuestion",
+    "RelativePath": "api/QuanLyCauHoi/GetListQuestion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "GetListQuestionContent",
+    "RelativePath": "api/QuanLyCauHoi/GetListQuestionContent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "GetListQuestionType",
+    "RelativePath": "api/QuanLyCauHoi/GetListQuestionType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "GetQuestionById",
+    "RelativePath": "api/QuanLyCauHoi/GetQuestionById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "GetQuestionContentById",
+    "RelativePath": "api/QuanLyCauHoi/GetQuestionContentById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "GetQuestionLevelById",
+    "RelativePath": "api/QuanLyCauHoi/GetQuestionLevelById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "GetQuestionLevels",
+    "RelativePath": "api/QuanLyCauHoi/GetQuestionLevels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "GetQuestionsByLessonId",
+    "RelativePath": "api/QuanLyCauHoi/GetQuestionsByLessonId/{lessonId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lessonId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "GetQuestionTypeById",
+    "RelativePath": "api/QuanLyCauHoi/GetQuestionTypeById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "InsertMultipleQuestions",
+    "RelativePath": "api/QuanLyCauHoi/InsertMultipleQuestions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questions",
+        "Type": "System.Collections.Generic.List\u00601[[WEBAPI.DTOS.QuestionDTO, WEBAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "InsertQuestion",
+    "RelativePath": "api/QuanLyCauHoi/InsertQuestion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionDTO",
+        "Type": "WEBAPI.DTOS.QuestionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "InsertQuestionContent",
+    "RelativePath": "api/QuanLyCauHoi/InsertQuestionContent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contentDTO",
+        "Type": "WEBAPI.DTOS.ContentTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "InsertQuestionLevel",
+    "RelativePath": "api/QuanLyCauHoi/InsertQuestionLevel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionLevelDTO",
+        "Type": "WEBAPI.DTOS.QuestionLevelDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "InsertQuestionType",
+    "RelativePath": "api/QuanLyCauHoi/InsertQuestionType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionTypeDTO",
+        "Type": "WEBAPI.DTOS.QuestionTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "RemoveQuestionFromLesson",
+    "RelativePath": "api/QuanLyCauHoi/RemoveQuestionFromLesson",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lessonId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "SwapQuestionOrder",
+    "RelativePath": "api/QuanLyCauHoi/SwapQuestionOrder",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.SwapQuestionOrderDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "UpdateQuestion",
+    "RelativePath": "api/QuanLyCauHoi/UpdateQuestion/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionDTO",
+        "Type": "WEBAPI.DTOS.QuestionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "UpdateQuestionContent",
+    "RelativePath": "api/QuanLyCauHoi/UpdateQuestionContent/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "contentDTO",
+        "Type": "WEBAPI.DTOS.ContentTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "UpdateQuestionLevel",
+    "RelativePath": "api/QuanLyCauHoi/UpdateQuestionLevel/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionLevelDTO",
+        "Type": "WEBAPI.DTOS.QuestionLevelDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "UpdateQuestionOrder",
+    "RelativePath": "api/QuanLyCauHoi/UpdateQuestionOrder",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.LessonQuestionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCauHoiController",
+    "Method": "UpdateQuestionType",
+    "RelativePath": "api/QuanLyCauHoi/UpdateQuestionType/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionTypeDTO",
+        "Type": "WEBAPI.DTOS.QuestionTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCertificateController",
+    "Method": "AddCertificateType",
+    "RelativePath": "api/QuanLyCertificate/AddCertificateType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CertificateTypeDTO",
+        "Type": "WEBAPI.Models.CertificateTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCertificateController",
+    "Method": "DeleteCertificate",
+    "RelativePath": "api/QuanLyCertificate/DeleteCertificate/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCertificateController",
+    "Method": "DeleteCertificateType",
+    "RelativePath": "api/QuanLyCertificate/DeleteCertificateType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCertificateController",
+    "Method": "GetCertificateById",
+    "RelativePath": "api/QuanLyCertificate/GetCertificateById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCertificateController",
+    "Method": "GetCertificateTypeById",
+    "RelativePath": "api/QuanLyCertificate/GetCertificateTypeById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCertificateController",
+    "Method": "GetListCertificates",
+    "RelativePath": "api/QuanLyCertificate/GetListCertificates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCertificateController",
+    "Method": "GetListCertificatesCourseIdForUser",
+    "RelativePath": "api/QuanLyCertificate/GetListCertificatesCourseIdForUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCertificateController",
+    "Method": "GetListCertificatesForUser",
+    "RelativePath": "api/QuanLyCertificate/GetListCertificatesForUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCertificateController",
+    "Method": "GetListCertificateTypes",
+    "RelativePath": "api/QuanLyCertificate/GetListCertificateTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyCertificateController",
+    "Method": "UpdateCertificateType",
+    "RelativePath": "api/QuanLyCertificate/UpdateCertificateType/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "certificateTypeDTO",
+        "Type": "WEBAPI.Models.CertificateTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyDangKyGoiCuocController",
+    "Method": "CreateUserPackageRegistration",
+    "RelativePath": "api/QuanLyDangKyGoiCuoc/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.UserPackageRegistrationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyDangKyGoiCuocController",
+    "Method": "DeleteUserPackageRegistration",
+    "RelativePath": "api/QuanLyDangKyGoiCuoc/Delete/{userId}/{packageId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyDangKyGoiCuocController",
+    "Method": "GetPackageByUser",
+    "RelativePath": "api/QuanLyDangKyGoiCuoc/GetPackageByUser/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyDangKyGoiCuocController",
+    "Method": "GetPackageByUserIdAndByPackageId",
+    "RelativePath": "api/QuanLyDangKyGoiCuoc/GetPackageByUserIdAndByPackageId/{userId}/{packageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyDangKyGoiCuocController",
+    "Method": "GetUserPackageRegistrations",
+    "RelativePath": "api/QuanLyDangKyGoiCuoc/GetUserPackageRegistrations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyDangKyGoiCuocController",
+    "Method": "GetUserPackageRegistrationsForUser",
+    "RelativePath": "api/QuanLyDangKyGoiCuoc/GetUserPackageRegistrationsForUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyDangKyGoiCuocController",
+    "Method": "UpdateUserPackageRegistration",
+    "RelativePath": "api/QuanLyDangKyGoiCuoc/Update/{userId}/{packageId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.UserPackageRegistrationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "AddMultipleQuestionsToExamSet",
+    "RelativePath": "api/QuanLyExam/AddMultipleQuestionsToExamSet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dtos",
+        "Type": "System.Collections.Generic.List\u00601[[WEBAPI.DTOS.ExamSetQuestionDTO, WEBAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "AddQuestionToExamSet",
+    "RelativePath": "api/QuanLyExam/AddQuestionToExamSet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.ExamSetQuestionCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "CanTakeExamSet",
+    "RelativePath": "api/QuanLyExam/CanTakeExamSet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "examSetId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "CanTakeExamSetForUser",
+    "RelativePath": "api/QuanLyExam/CanTakeExamSetForUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "CreateExamSet",
+    "RelativePath": "api/QuanLyExam/CreateExamSet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.ExamSetDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "DeleteExamSet",
+    "RelativePath": "api/QuanLyExam/DeleteExamSet/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "DeleteMultipleQuestionsFromExamSet",
+    "RelativePath": "api/QuanLyExam/DeleteMultipleQuestionsFromExamSet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dtos",
+        "Type": "System.Collections.Generic.List\u00601[[WEBAPI.DTOS.ExamSetQuestionDTO, WEBAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "DeleteQuestionFromExamSet",
+    "RelativePath": "api/QuanLyExam/DeleteQuestionFromExamSet",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examSetId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "GetAllExamSets",
+    "RelativePath": "api/QuanLyExam/GetAllExamSets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "GetExamHistoryForUser",
+    "RelativePath": "api/QuanLyExam/GetExamHistoryForUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "GetExamSetById",
+    "RelativePath": "api/QuanLyExam/GetExamSetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "GetExamSetsByCourse",
+    "RelativePath": "api/QuanLyExam/GetExamSetsByCourse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "GetQuestionsByExamSet",
+    "RelativePath": "api/QuanLyExam/GetQuestionsByExamSet/{examSetId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examSetId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "GetQuestionsNotInExamSet",
+    "RelativePath": "api/QuanLyExam/GetQuestionsNotInExamSet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examSetId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "GetRandomExamSetByCourse",
+    "RelativePath": "api/QuanLyExam/GetRandomExamSetByCourse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "GetUserExamHistory",
+    "RelativePath": "api/QuanLyExam/GetUserExamHistory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "StartExam",
+    "RelativePath": "api/QuanLyExam/StartExam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.UserExamHistoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "StartExamForUser",
+    "RelativePath": "api/QuanLyExam/StartExamForUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.UserExamHistoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "SubmitExam",
+    "RelativePath": "api/QuanLyExam/SubmitExam/{historyId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "historyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.UserExamHistoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "SwapExamQuestionOrder",
+    "RelativePath": "api/QuanLyExam/SwapExamQuestionOrder",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.SwapExamQuestionOrderDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "UpdateExamQuestionOrder",
+    "RelativePath": "api/QuanLyExam/UpdateExamQuestionOrder",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.ExamSetQuestionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "UpdateExamQuestionScore",
+    "RelativePath": "api/QuanLyExam/UpdateExamQuestionScore",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.ExamSetQuestionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyExamController",
+    "Method": "UpdateExamSet",
+    "RelativePath": "api/QuanLyExam/UpdateExamSet/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.ExamSetDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyGoiCuocController",
+    "Method": "DeletePackage",
+    "RelativePath": "api/QuanLyGoiCuoc/DeletePackage/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyGoiCuocController",
+    "Method": "GetCoursesByPackage",
+    "RelativePath": "api/QuanLyGoiCuoc/GetCoursesByPackage/{packageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyGoiCuocController",
+    "Method": "Getpackages",
+    "RelativePath": "api/QuanLyGoiCuoc/GetListPackages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyGoiCuocController",
+    "Method": "GetPackageById",
+    "RelativePath": "api/QuanLyGoiCuoc/GetPackageById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyGoiCuocController",
+    "Method": "InsertPackage",
+    "RelativePath": "api/QuanLyGoiCuoc/InsertPackage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageDTO",
+        "Type": "WEBAPI.DTOS.PackageDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyGoiCuocController",
+    "Method": "UpdatePackage",
+    "RelativePath": "api/QuanLyGoiCuoc/UpdatePackage/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "packageDTO",
+        "Type": "WEBAPI.DTOS.PackageDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKetQuaHocController",
+    "Method": "CheckCourseProgress",
+    "RelativePath": "api/QuanLyKetQuaHoc/CheckCourseProgress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKetQuaHocController",
+    "Method": "CheckUserReviewStatus",
+    "RelativePath": "api/QuanLyKetQuaHoc/CheckUserReviewStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKetQuaHocController",
+    "Method": "CreateAcademicResult",
+    "RelativePath": "api/QuanLyKetQuaHoc/CreateAcademicResult",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "academicResultDTO",
+        "Type": "WEBAPI.DTOS.AcademicResultDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKetQuaHocController",
+    "Method": "DeleteAcademicResult",
+    "RelativePath": "api/QuanLyKetQuaHoc/DeleteAcademicResult/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKetQuaHocController",
+    "Method": "GetAcademicResultById",
+    "RelativePath": "api/QuanLyKetQuaHoc/GetAcademicResultById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKetQuaHocController",
+    "Method": "GetAcademicResults",
+    "RelativePath": "api/QuanLyKetQuaHoc/GetAcademicResults",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "courseId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "lessonId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKetQuaHocController",
+    "Method": "GetAcademicResultsForUser",
+    "RelativePath": "api/QuanLyKetQuaHoc/GetAcademicResultsForUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "lessonId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKetQuaHocController",
+    "Method": "UpdateAcademicResult",
+    "RelativePath": "api/QuanLyKetQuaHoc/UpdateAcademicResult/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "academicResultDTO",
+        "Type": "WEBAPI.DTOS.AcademicResultDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKetQuaHocController",
+    "Method": "UpdateAcademicResultForUser",
+    "RelativePath": "api/QuanLyKetQuaHoc/UpdateAcademicResultForUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lessonId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "CapNhatThongTinUser",
+    "RelativePath": "api/QuanLyKhachHang/CapNhatThongTinUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateDto",
+        "Type": "WEBAPI.DTOS.CapNhatThonTinUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "CapNhatThongTinUser",
+    "RelativePath": "api/QuanLyKhachHang/CapNhatThongTinUserTheoID/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDto",
+        "Type": "WEBAPI.DTOS.CapNhatThonTinUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "UpdatePassword",
+    "RelativePath": "api/QuanLyKhachHang/ChangePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.ChangePasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "Dangky",
+    "RelativePath": "api/QuanLyKhachHang/DangKy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dangkydto",
+        "Type": "WEBAPI.DTOS.DangKyDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "DangNhap",
+    "RelativePath": "api/QuanLyKhachHang/DangNhap",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dangNhapDTO",
+        "Type": "WEBAPI.DTOS.DangNhapDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/QuanLyKhachHang/ForgotPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.ForgotPasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "GetListRole",
+    "RelativePath": "api/QuanLyKhachHang/GetListRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "LayDanhSachAvatar",
+    "RelativePath": "api/QuanLyKhachHang/LayDanhSachAvatar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "LayThongTinUser",
+    "RelativePath": "api/QuanLyKhachHang/LayThongTinUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "LayThongTinUser",
+    "RelativePath": "api/QuanLyKhachHang/LayThongTinUserBangID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "ListDanhSachTaiKhoan",
+    "RelativePath": "api/QuanLyKhachHang/ListDanhSachTaiKhoan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/QuanLyKhachHang/ResetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.ResetPasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "SuaRole",
+    "RelativePath": "api/QuanLyKhachHang/SuaRole/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "roleDto",
+        "Type": "WEBAPI.DTOS.RoleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "ThemRole",
+    "RelativePath": "api/QuanLyKhachHang/ThemRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleDto",
+        "Type": "WEBAPI.DTOS.RoleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "Themuser",
+    "RelativePath": "api/QuanLyKhachHang/ThemUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x",
+        "Type": "WEBAPI.DTOS.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "UpdatePasswordById",
+    "RelativePath": "api/QuanLyKhachHang/UpdatePasswordById/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.ChangePasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "VerifyOtp",
+    "RelativePath": "api/QuanLyKhachHang/VerifyOtp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.VerifyOtpDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "XoaRole",
+    "RelativePath": "api/QuanLyKhachHang/XoaRole/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "XoaTaiKhoan",
+    "RelativePath": "api/QuanLyKhachHang/XoaTaiKhoan",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhachHangController",
+    "Method": "XoaTaiKhoan",
+    "RelativePath": "api/QuanLyKhachHang/XoaTaiKhoan/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhoaHocController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/QuanLyKhoaHoc/DeleteCategories/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhoaHocController",
+    "Method": "DeleteCourse",
+    "RelativePath": "api/QuanLyKhoaHoc/DeleteCourse/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhoaHocController",
+    "Method": "DeleteLevel",
+    "RelativePath": "api/QuanLyKhoaHoc/DeleteLevels/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhoaHocController",
+    "Method": "GetCategoryID",
+    "RelativePath": "api/QuanLyKhoaHoc/GetCategoryID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhoaHocController",
+    "Method": "GetCourseID",
+    "RelativePath": "api/QuanLyKhoaHoc/GetCourseID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhoaHocController",
+    "Method": "GetlevelID",
+    "RelativePath": "api/QuanLyKhoaHoc/GetLevelID/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhoaHocController",
+    "Method": "GetCategories",
+    "RelativePath": "api/QuanLyKhoaHoc/GetListCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhoaHocController",
+    "Method": "GetListCourse",
+    "RelativePath": "api/QuanLyKhoaHoc/GetListCourse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhoaHocController",
+    "Method": "GetLevels",
+    "RelativePath": "api/QuanLyKhoaHoc/GetListLevels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhoaHocController",
+    "Method": "AddCategory",
+    "RelativePath": "api/QuanLyKhoaHoc/InsertCategories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryDTO",
+        "Type": "WEBAPI.DTOS.CategoriesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhoaHocController",
+    "Method": "AddCourse",
+    "RelativePath": "api/QuanLyKhoaHoc/InsertCourse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseDTO",
+        "Type": "WEBAPI.DTOS.CourseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhoaHocController",
+    "Method": "AddLevel",
+    "RelativePath": "api/QuanLyKhoaHoc/InsertLevels",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "levelDTO",
+        "Type": "WEBAPI.DTOS.LevelDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhoaHocController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/QuanLyKhoaHoc/updateCategories/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "categoryDTO",
+        "Type": "WEBAPI.DTOS.CategoriesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhoaHocController",
+    "Method": "UpdateCourse",
+    "RelativePath": "api/QuanLyKhoaHoc/UpdateCourse/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "courseDTO",
+        "Type": "WEBAPI.DTOS.CourseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyKhoaHocController",
+    "Method": "UpdateLevel",
+    "RelativePath": "api/QuanLyKhoaHoc/UpdateLevels/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "levelDTO",
+        "Type": "WEBAPI.DTOS.LevelDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "CheckUserReviewStatus",
+    "RelativePath": "api/QuanLyReview/CheckUserReviewStatus/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "CreateReportCourse",
+    "RelativePath": "api/QuanLyReview/CreateReportCourse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reportDTO",
+        "Type": "WEBAPI.DTOS.ReviewDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "CreateReportLesson",
+    "RelativePath": "api/QuanLyReview/CreateReportLesson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reportDTO",
+        "Type": "WEBAPI.DTOS.ReviewDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "CreateReportLessonforuser",
+    "RelativePath": "api/QuanLyReview/CreateReportLessonforuser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reportDTO",
+        "Type": "WEBAPI.DTOS.ReviewDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "CreateReviewCourseID",
+    "RelativePath": "api/QuanLyReview/CreateReviewCourseID",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reviewDTO",
+        "Type": "WEBAPI.DTOS.ReviewDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "CreateReviewCourseIDforuser",
+    "RelativePath": "api/QuanLyReview/CreateReviewCourseIDforuser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reviewDTO",
+        "Type": "WEBAPI.DTOS.ReviewDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "DeleteReview",
+    "RelativePath": "api/QuanLyReview/DeleteReview/{reviewId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reviewId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "GetById",
+    "RelativePath": "api/QuanLyReview/GetById/{reviewId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reviewId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "GetDSReport",
+    "RelativePath": "api/QuanLyReview/GetDSReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "GetDSReviewByCourse",
+    "RelativePath": "api/QuanLyReview/GetDSReviewByCourse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "GetDSReviewByCoursePaged",
+    "RelativePath": "api/QuanLyReview/GetDSReviewByCoursePaged",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "GetReportsByCourseId",
+    "RelativePath": "api/QuanLyReview/GetReportsByCourseId/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "GetReportsByLessonId",
+    "RelativePath": "api/QuanLyReview/GetReportsByLessonId/{lessonId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lessonId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "GetReviewsByCourseId",
+    "RelativePath": "api/QuanLyReview/GetReviewsByCourseId/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "GetReviewStats",
+    "RelativePath": "api/QuanLyReview/GetReviewStats/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "GetUserReportsByCourseAndLesson",
+    "RelativePath": "api/QuanLyReview/GetUserReportsByCourseAndLesson",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "lessonId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyReviewController",
+    "Method": "UpdateReview",
+    "RelativePath": "api/QuanLyReview/UpdateReview/{reviewId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reviewId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.ReviewDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "AddVocabularyCategory",
+    "RelativePath": "api/QuanLyVocabulary/AddVocabularyCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.VocabularyCategoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "AddVocabularyCategoryMapping",
+    "RelativePath": "api/QuanLyVocabulary/AddVocabularyCategoryMapping",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.VocabularyCategoryMappingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "CreateVocabulary",
+    "RelativePath": "api/QuanLyVocabulary/CreateVocabulary",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vocabularyDto",
+        "Type": "WEBAPI.DTOS.VocabularyDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "DeleteVocabulary",
+    "RelativePath": "api/QuanLyVocabulary/DeleteVocabulary/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "DeleteVocabularyCategory",
+    "RelativePath": "api/QuanLyVocabulary/DeleteVocabularyCategory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "DeleteVocabularyCategoryMapping",
+    "RelativePath": "api/QuanLyVocabulary/DeleteVocabularyCategoryMapping",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.VocabularyCategoryMappingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "GetWordDefinition",
+    "RelativePath": "api/QuanLyVocabulary/get-word/{word}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "word",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "GetListVocabulary",
+    "RelativePath": "api/QuanLyVocabulary/GetListVocabulary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "GetListVocabularyCategory",
+    "RelativePath": "api/QuanLyVocabulary/GetListVocabularyCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "GetListVocabularyCategoryMapping",
+    "RelativePath": "api/QuanLyVocabulary/GetListVocabularyCategoryMapping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "GetListVocabularyCategoryMappingByCategoryId",
+    "RelativePath": "api/QuanLyVocabulary/GetListVocabularyCategoryMappingByCategoryId/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "GetMeaningsByVocabularyId",
+    "RelativePath": "api/QuanLyVocabulary/GetMeaningsByVocabularyId/{vocabularyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vocabularyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "GetNewVocabulariesThisMonth",
+    "RelativePath": "api/QuanLyVocabulary/GetNewVocabulariesThisMonth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "GetVocabularyById",
+    "RelativePath": "api/QuanLyVocabulary/GetVocabularyById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "GetVocabularyWithMeanings",
+    "RelativePath": "api/QuanLyVocabulary/GetVocabularyWithMeanings/{vocabularyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vocabularyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "UpdateVocabulary",
+    "RelativePath": "api/QuanLyVocabulary/UpdateVocabulary/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "vocabularyDto",
+        "Type": "WEBAPI.DTOS.VocabularyDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "UpdateVocabularyCategory",
+    "RelativePath": "api/QuanLyVocabulary/UpdateVocabularyCategory/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.VocabularyCategoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.QuanLyVocabularyController",
+    "Method": "UpdateVocabularyCategoryMapping",
+    "RelativePath": "api/QuanLyVocabulary/UpdateVocabularyCategoryMapping",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WEBAPI.DTOS.VocabularyCategoryMappingDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "newCategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WEBAPI.WeatherForecast, WEBAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
